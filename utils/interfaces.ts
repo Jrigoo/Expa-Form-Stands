@@ -71,8 +71,7 @@ export interface IAtributos {
     | "Referral"
     | "Edad"
     | "Ingles"
-    | "Estudios"
-   
+    | "Estudios";
 }
 
 export interface IFormData {
@@ -222,13 +221,7 @@ export type IUniversidad =
   | "Universidad Latina - Chiriquí"
   | "Universidad Tecnológica Oteima - Chiriquí";
 
-export type ISegmentacion =
-  | "Chiriquí"
-  | "Coclé"
-  | "Santiago"
-  | "UP"
-  | "UTP"
-  | "VE";
+export type ISegmentacion = "Santiago" | "UP" | "UTP" | "VE";
 
 export type IEstudios =
   | "Bachiller"
